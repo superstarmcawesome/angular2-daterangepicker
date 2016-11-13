@@ -10,12 +10,14 @@ npm install daterangepicker --save
 
 import DaterangepickerModule
 
-
+```
 <daterangepicker [options]="options"
                  (selected)="selectedDate($event)"></daterangepicker>
+```
 
 set your custom options:
 
+```
 private options: Object = {
     'showDropdowns': true,
     'showWeekNumbers': true,
@@ -31,6 +33,7 @@ private options: Object = {
 private selectedDate(value: any) {
     console.log(value);
   }
+```
 
 feel free to contribute! :-)
 
